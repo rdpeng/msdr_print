@@ -1160,7 +1160,7 @@ legend(1, 300000, c("Not Memoized", "Memoized"), pch = 18,
        col = c("black", "blue"), bty = "n", cex = 1, y.intersp = 1.5)
 ```
 
-![Speed comparison of memoization](images/unnamed-chunk-46-1.png)
+![Speed comparison of memoization](images/memoizationBenchmark.png)
 
 As you can see as higher Fibonacci numbers are calculated the time it takes to
 calculate a number with `fib()` grows exponentially, while the time it takes
@@ -1284,7 +1284,7 @@ return_expression(2, col = "blue", FALSE)
 You could of course then manipulate this expression inside of the function
 you're writing. The exmaple below first uses `match.call()` to capture the
 expression that the user entered. The first argument of the function is then
-extracted an evaluated. If the first expressions is a number, then a string is
+extracted and evaluated. If the first expressions is a number, then a string is
 returned describing the first argument, otherwise the string
 `"The first argument is not numeric."` is returned.
 
