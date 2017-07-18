@@ -1282,7 +1282,7 @@ return_expression(2, col = "blue", FALSE)
 ```
 
 You could of course then manipulate this expression inside of the function
-you're writing. The exmaple below first uses `match.call()` to capture the
+you're writing. The example below first uses `match.call()` to capture the
 expression that the user entered. The first argument of the function is then
 extracted and evaluated. If the first expressions is a number, then a string is
 returned describing the first argument, otherwise the string
