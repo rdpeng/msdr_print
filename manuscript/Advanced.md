@@ -3072,7 +3072,7 @@ operator (`<<-`). You need to use this operator if you want to modify one
 of the fields of an object with a method. You'll learn more about this operator
 in the Expressions & Environments section.
 
-Reference classes can inheret from other classes by specifying the `contains`
+Reference classes can inherit from other classes by specifying the `contains`
 argument when they're defined. Let's create a sub-class of Student called
 Grad_Student which includes a few extra features:
 
